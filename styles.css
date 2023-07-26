@@ -1,0 +1,34 @@
+body{
+	font-family:helvetica;
+	text-align:center
+}
+
+#userConverter{
+	padding:15px;
+}
+
+table{
+	margin:auto;
+	font-size:16px;
+	border-collapse:collapse;
+}
+
+td, th, #userConverter{
+	padding:8px;
+	border: 1px solid #ddd;
+	margin:auto;
+	width:50%;
+}
+
+th{
+	font-size:24px;
+	font-style:bold;
+	color:#ffffff;
+	background-color:#0099ff;
+}
+
+tr:nth-child(even) {background-color:#ccebff;}
+
+tr:hover {
+	background-color:#80ccff;
+}
